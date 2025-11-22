@@ -16,7 +16,7 @@ namespace BTH4
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Bai03());
+            Application.Run(new Bai04());
         }
     }
 }
