@@ -106,6 +106,9 @@
     <EmbeddedResource Include="Bai05.resx">
       <DependentUpon>Bai05.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Bai06.resx">
+      <DependentUpon>Bai06.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmThemSinhVien.resx">
       <DependentUpon>frmThemSinhVien.cs</DependentUpon>
     </EmbeddedResource>
