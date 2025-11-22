@@ -82,8 +82,15 @@
     <Compile Include="Bai06.Designer.cs">
       <DependentUpon>Bai06.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmThemSinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThemSinhVien.Designer.cs">
+      <DependentUpon>frmThemSinhVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SinhVien.cs" />
     <EmbeddedResource Include="Bai01.resx">
       <DependentUpon>Bai01.cs</DependentUpon>
     </EmbeddedResource>
@@ -95,6 +102,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Bai04.resx">
       <DependentUpon>Bai04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bai05.resx">
+      <DependentUpon>Bai05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThemSinhVien.resx">
+      <DependentUpon>frmThemSinhVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -155,6 +168,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\format_underlined_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person_add_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person_add_30dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person_add_40dp_000000_FILL0_wght400_GRAD0_opsz40.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

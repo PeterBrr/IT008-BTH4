@@ -119,5 +119,35 @@ namespace BTH4.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap person_add_24dp_000000_FILL0_wght400_GRAD0_opsz24 {
+            get {
+                object obj = ResourceManager.GetObject("person_add_24dp_000000_FILL0_wght400_GRAD0_opsz24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap person_add_30dp_000000_FILL0_wght400_GRAD0_opsz24 {
+            get {
+                object obj = ResourceManager.GetObject("person_add_30dp_000000_FILL0_wght400_GRAD0_opsz24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap person_add_40dp_000000_FILL0_wght400_GRAD0_opsz40 {
+            get {
+                object obj = ResourceManager.GetObject("person_add_40dp_000000_FILL0_wght400_GRAD0_opsz40", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
