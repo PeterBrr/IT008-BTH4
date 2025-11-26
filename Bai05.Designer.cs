@@ -34,6 +34,7 @@
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.menuThoat = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.btnThemMoi = new System.Windows.Forms.ToolStripButton();
             this.lblTimKiem = new System.Windows.Forms.ToolStripLabel();
             this.txtTimKiem = new System.Windows.Forms.ToolStripTextBox();
             this.dgvSinhVien = new System.Windows.Forms.DataGridView();
@@ -42,7 +43,6 @@
             this.colTen = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colKhoa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colDiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnThemMoi = new System.Windows.Forms.ToolStripButton();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSinhVien)).BeginInit();
@@ -102,6 +102,19 @@
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
+            // btnThemMoi
+            // 
+            this.btnThemMoi.AutoSize = false;
+            this.btnThemMoi.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemMoi.Image = global::BTH4.Properties.Resources.person_add_40dp_000000_FILL0_wght400_GRAD0_opsz40;
+            this.btnThemMoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnThemMoi.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.btnThemMoi.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnThemMoi.Name = "btnThemMoi";
+            this.btnThemMoi.Size = new System.Drawing.Size(250, 42);
+            this.btnThemMoi.Text = "Thêm Mới";
+            this.btnThemMoi.Click += new System.EventHandler(this.btnThemMoi_Click);
+            // 
             // lblTimKiem
             // 
             this.lblTimKiem.Name = "lblTimKiem";
@@ -111,6 +124,7 @@
             // txtTimKiem
             // 
             this.txtTimKiem.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtTimKiem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(250, 45);
             this.txtTimKiem.TextChanged += new System.EventHandler(this.txtTimKiem_TextChanged);
@@ -127,6 +141,7 @@
             this.dgvSinhVien.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvSinhVien.Location = new System.Drawing.Point(0, 73);
             this.dgvSinhVien.Name = "dgvSinhVien";
+            this.dgvSinhVien.ReadOnly = true;
             this.dgvSinhVien.RowHeadersWidth = 51;
             this.dgvSinhVien.RowTemplate.Height = 24;
             this.dgvSinhVien.Size = new System.Drawing.Size(877, 346);
@@ -137,6 +152,7 @@
             this.colSTT.HeaderText = "Số TT";
             this.colSTT.MinimumWidth = 6;
             this.colSTT.Name = "colSTT";
+            this.colSTT.ReadOnly = true;
             this.colSTT.Width = 125;
             // 
             // colMaSo
@@ -144,6 +160,7 @@
             this.colMaSo.HeaderText = "Mã Số SV";
             this.colMaSo.MinimumWidth = 6;
             this.colMaSo.Name = "colMaSo";
+            this.colMaSo.ReadOnly = true;
             this.colMaSo.Width = 125;
             // 
             // colTen
@@ -151,6 +168,7 @@
             this.colTen.HeaderText = "Tên Sinh Viên";
             this.colTen.MinimumWidth = 6;
             this.colTen.Name = "colTen";
+            this.colTen.ReadOnly = true;
             this.colTen.Width = 125;
             // 
             // colKhoa
@@ -158,6 +176,7 @@
             this.colKhoa.HeaderText = "Khoa";
             this.colKhoa.MinimumWidth = 6;
             this.colKhoa.Name = "colKhoa";
+            this.colKhoa.ReadOnly = true;
             this.colKhoa.Width = 125;
             // 
             // colDiem
@@ -165,20 +184,8 @@
             this.colDiem.HeaderText = "Diem TB";
             this.colDiem.MinimumWidth = 6;
             this.colDiem.Name = "colDiem";
+            this.colDiem.ReadOnly = true;
             this.colDiem.Width = 125;
-            // 
-            // btnThemMoi
-            // 
-            this.btnThemMoi.AutoSize = false;
-            this.btnThemMoi.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThemMoi.Image = global::BTH4.Properties.Resources.person_add_40dp_000000_FILL0_wght400_GRAD0_opsz40;
-            this.btnThemMoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThemMoi.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.btnThemMoi.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnThemMoi.Name = "btnThemMoi";
-            this.btnThemMoi.Size = new System.Drawing.Size(250, 42);
-            this.btnThemMoi.Text = "Thêm Mới";
-            this.btnThemMoi.Click += new System.EventHandler(this.btnThemMoi_Click);
             // 
             // Bai05
             // 

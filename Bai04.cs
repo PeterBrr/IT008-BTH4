@@ -99,11 +99,6 @@ namespace BTH4
             OpenFile();
         }
 
-        private void btnSave_Click(object sender, EventArgs e)
-        {
-            OpenFile();
-        }
-
         private void OpenFile()
         {
             OpenFileDialog ofd = new OpenFileDialog();
@@ -135,14 +130,14 @@ namespace BTH4
             SaveFile();
         }
 
-        private void btnSave_Click_1(object sender, EventArgs e)
+        private void btnSave_Click(object sender, EventArgs e)
         {
             SaveFile();
         }
 
         private void SaveFile()
         {
-            // TH1: Văn bản mới chưa lưu lần nào -> Hiện SaveFileDialog
+            // Văn bản mới chưa lưu lần nào -> Hiện SaveFileDialog
             if (string.IsNullOrEmpty(currentFilePath))
             {
                 SaveFileDialog sfd = new SaveFileDialog();
@@ -155,7 +150,7 @@ namespace BTH4
                     MessageBox.Show("Lưu văn bản thành công!", "Thông báo");
                 }
             }
-            else // TH2: Văn bản đã có đường dẫn -> Lưu đè
+            else // Văn bản đã có đường dẫn -> Lưu đè
             {
                 try
                 {
@@ -237,6 +232,6 @@ namespace BTH4
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
+        }       
     }
 }

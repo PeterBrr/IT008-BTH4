@@ -104,7 +104,9 @@
             // 
             this.cboKhoa.FormattingEnabled = true;
             this.cboKhoa.Items.AddRange(new object[] {
-            "Công nghệ thông tin"});
+            "Công nghệ thông tin",
+            "Công nghệ phần mềm",
+            "Khoa học máy tính"});
             this.cboKhoa.Location = new System.Drawing.Point(152, 106);
             this.cboKhoa.Name = "cboKhoa";
             this.cboKhoa.Size = new System.Drawing.Size(245, 24);
